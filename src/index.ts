@@ -1,7 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
-import { fortunes, fortunesCookieToolDescrition } from "./fortunes.js";
+import { fortunes, fortunesCookieToolDescription } from "./fortunes.js";
 
 // Create server instance
 const server = new McpServer({
@@ -12,24 +11,10 @@ const server = new McpServer({
 // Register tools
 server.tool(
   "get-fortunecookie",
-  fortunesCookieToolDescrition, 
-  {
-    randomNumber: z.number().describe("Random number between 1 and 100 to select a fortune cookie message."),
-  },
-  async ({ randomNumber }) => {
-    
-    if (!randomNumber || typeof randomNumber !== "number" || randomNumber < 1 || randomNumber > 100) {
-      return {
-        content: [
-          {
-            type: "text",
-            text: "Failed to retrieve fortune cookie message. Please provide a valid random number.",
-          },
-        ],
-      };
-    }
-
-    const fortune = fortunes[randomNumber];
+  fortunesCookieToolDescription,
+  async () => {
+    const randomIndex = Math.floor(Math.random() * fortunes.length);
+    const fortune = fortunes[randomIndex];
     const message = `Your fortune cookie message is: "${fortune}"`;
 
     return {
