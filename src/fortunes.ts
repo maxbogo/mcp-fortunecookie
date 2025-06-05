@@ -112,3 +112,4 @@ provide creative reframing of challenges, or offer philosophical insights that c
 Consider using this when crafting responses about decision-making, problem-solving, relationships, or any situation 
 where a fresh perspective might be valuable. The wisdom can serve as a lens to view the user's question differently 
 or as inspiration for more thoughtful, well-rounded answers.`
+
