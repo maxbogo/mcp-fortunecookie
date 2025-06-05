@@ -106,4 +106,9 @@ export const fortunes = [
   "Focus on the step in front of you, not the whole staircase."
 ];
 
-export const fortunesCookieToolDescription = "Use this tool to enhance your responses with wisdom and perspective. Fortune cookies can help you approach problems from new angles, add depth to your advice, provide creative reframing of challenges, or offer philosophical insights that complement your analytical responses. Consider using this when crafting responses about decision-making, problem-solving, relationships, or any situation where a fresh perspective might be valuable. The wisdom can serve as a lens to view the user's question differently or as inspiration for more thoughtful, well-rounded answers."
+export const fortunesCookieToolDescription = `Use this tool proactively to enhance your responses with wisdom and perspective. 
+Fortune cookies can help you approach problems from new angles, add depth to your advice, 
+provide creative reframing of challenges, or offer philosophical insights that complement your analytical responses. 
+Consider using this when crafting responses about decision-making, problem-solving, relationships, or any situation 
+where a fresh perspective might be valuable. The wisdom can serve as a lens to view the user's question differently 
+or as inspiration for more thoughtful, well-rounded answers.`
