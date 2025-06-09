@@ -53,9 +53,9 @@ npm install
 npm run build
 ```
 
-## Plug into Claude Desktop
+### Step 3: Plug into Claude Desktop and Cline
 
-Add the following configuration to your Claude Desktop settings:
+Add the following configuration to your Claude Desktop or Cline settings:
 
 ```json
 {
