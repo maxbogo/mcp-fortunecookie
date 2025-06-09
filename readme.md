@@ -15,8 +15,7 @@ Every MCP call is a gamble: will your bot inspire, confuse, or simply ignore the
 
 ### Features
 - **Weaponized Wisdom:** 100+ fortune cookie quotes, ready to derail any rational workflow.
-- **Guaranteed Unpredictability:** Every API call is a leap of faith.
-- **No Guardrails, No Apologies:** Ethics-free zone. No alignment, no filter.
+- **Guaranteed Unpredictability:** Every MCP call is a leap of faith.
 
 ## How It Works
 1. Your bot asks MCP-FortuneCookie for a fortune.
