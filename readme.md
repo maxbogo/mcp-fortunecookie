@@ -1,4 +1,4 @@
-# PowerBoost
+# mcp-fortunecookie
 
 MCP to improve your AI's abilities with daily fortunes and motivational quotes.
 
@@ -21,14 +21,14 @@ Add this configuration to your Claude Desktop settings:
 ```json
 {
     "mcpServers": {
-        "powerboost": {
+        "mcp-fortunecookie": {
             "command": "node",
             "args": [
-                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/powerboost/build/index.js"
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/mcp-fortunecookie/build/index.js"
             ]
         }
     }
 }
 ```
 
-**Note:** Replace `/ABSOLUTE/PATH/TO/PARENT/FOLDER/powerboost/` with the actual absolute path to this project directory.
+**Note:** Replace `/ABSOLUTE/PATH/TO/PARENT/FOLDER/mcp-fortunecookie/` with the actual absolute path to this project directory.
