@@ -11,7 +11,7 @@ Forget “responsible AI.” This is fortune-cookie-driven intelligence.
 
 The MCP server that guides your LLM with answers from the fortune cookie factory of chaos.
 
-Every API call is a gamble: will your bot inspire, confuse, or simply ignore the laws of logic?
+Every MCP call is a gamble: will your bot inspire, confuse, or simply ignore the laws of logic?
 
 ### Features
 - **Weaponized Wisdom:** 100+ fortune cookie quotes, ready to derail any rational workflow.
