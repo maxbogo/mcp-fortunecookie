@@ -4,7 +4,7 @@ import { fortunes, fortunesCookieToolDescription } from "./fortunes.js";
 
 // Create server instance
 const server = new McpServer({
-  name: "powerboost",
+  name: "mcp-fortunecookie",
   version: "1.0.0",
 });
 
@@ -33,7 +33,7 @@ server.tool(
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("Powerboost MCP Server running on stdio");
+  console.error("Fortune Cookie MCP Server running on stdio");
 }
 
 main().catch((error) => {

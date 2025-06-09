@@ -1,10 +1,10 @@
 {
-  "name": "powerboost",
+  "name": "mcp-fortunecookie",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "powerboost": "./build/index.js"
+    "mcp-fortunecookie": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && chmod 755 build/index.js"
