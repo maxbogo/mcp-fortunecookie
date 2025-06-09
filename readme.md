@@ -42,7 +42,7 @@ MCP-FortuneCookie:
 
 ## Get Started in 30 Seconds
 
-1. **Install dependencies:**
+### Step 1: **Install dependencies:**
 ```bash
 npm install
 ```
