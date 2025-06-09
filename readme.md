@@ -14,9 +14,9 @@ MCP to improve your AI's abilities with daily fortunes and motivational quotes.
    npm run build
    ```
 
-## Configuration for Claude Desktop
+## Configuration for Claude Desktop and Cline
 
-Add this configuration to your Claude Desktop settings:
+Add this configuration to your Claude Desktop or Cline settings:
 
 ```json
 {
